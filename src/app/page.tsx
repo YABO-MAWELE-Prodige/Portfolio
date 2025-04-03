@@ -14,14 +14,14 @@ import React, { useState } from "react";
 import { ShoppingCart } from "lucide-react";
 import Image from "next/image";
 
-export const artworks = [
+const artworks = [
   {
     id: 1,
     title: "Sand",
     src: "/img/ia.jpg",
   },
   {
-    d: 2,
+    id: 2,
     title: "Satellite",
     src: "/img/ib.jpg",
   },
@@ -108,7 +108,7 @@ function App() {
           ))}
         </div>
 
-        {/* Contact Section */}
+        {/* Section de Contact */}
         <div className="bg-gray-10 py-16">
           <div className="max-w-2xl mx-auto px-8">
             <h2 className="text-black">Contact</h2> <br />
